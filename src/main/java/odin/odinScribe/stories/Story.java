@@ -5,7 +5,7 @@ import java.util.List;
 import jakarta.persistence.Entity;
 
 @Entity
-public class story {
+public class Story {
 
 	private String id;
 	private String name;
@@ -13,7 +13,8 @@ public class story {
 	private List<String> tags;
 	private String content;
 	
-	public story(String id, String name, String description, List<String> tags, String content) {
+	public Story(String id, String name, String description, List<String> tags, String content) {
+		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;

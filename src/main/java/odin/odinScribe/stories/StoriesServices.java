@@ -1,5 +1,5 @@
 package odin.odinScribe.stories;
 
-public class storiesServices {
+public class StoriesServices {
 
 }

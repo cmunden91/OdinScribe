@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class storiesController {
+public class StoriesController {
 	@GetMapping("/stories")
 	public String stories(@RequestParam(required=false, defaultValue="") String name, Model model) {
 		return "stories";
