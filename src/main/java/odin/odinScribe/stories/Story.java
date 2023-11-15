@@ -3,10 +3,12 @@ package odin.odinScribe.stories;
 import java.util.List;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Story {
 
+	@Id
 	private String id;
 	private String name;
 	private String description;
